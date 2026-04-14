@@ -9,7 +9,7 @@
 
     <!-- NuGet package metadata -->
     <PackageId>ComnetSolution.AutoMapper</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Vimal Vataliya</Authors>
     <Company>Comnet Solution Pte. Lte.</Company>
     <Product>ComnetMapper</Product>
