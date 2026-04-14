@@ -1,4 +1,4 @@
-# Comnet.Mapper
+# ComnetSolution.AutoMapper
 
 [![NuGet](https://img.shields.io/nuget/v/THGEchoSystem.Mapper.svg)](https://www.nuget.org/packages/THGEchoSystem.Mapper)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -9,7 +9,7 @@ Designed as a **drop-in replacement for AutoMapper** — migrate existing projec
 
 ---
 
-## Why Comnet.Mapper?
+## Why ComnetSolution.AutoMapper?
 
 AutoMapper became closed-source / commercial in recent versions. This library replicates the AutoMapper API surface you rely on — `Profile`, `CreateMap`, `ForMember`, `ReverseMap`, `MapList`, `IMapper` injection — without any licensing restrictions and with zero external dependencies beyond `Microsoft.Extensions.DependencyInjection.Abstractions`.
 
@@ -25,13 +25,13 @@ AutoMapper became closed-source / commercial in recent versions. This library re
 ## Installation
 
 ```bash
-dotnet add package Comnet.Mapper
+dotnet add package ComnetSolution.AutoMapper
 ```
 
 or via NuGet Package Manager:
 
 ```
-Install-Package Comnet.Mapper
+Install-Package ComnetSolution.AutoMapper
 ```
 
 ---
