@@ -22,7 +22,7 @@
     <PackageTags>mapper;automapper;object-mapping;dto;expression-trees;dependency-injection</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryUrl>https://github.com/THGEchoSystem/THGEchoSystem.Mapper</RepositoryUrl>
+    <RepositoryUrl>https://github.com/vimalcomnet/Comnet.Mapper.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
 
     <!-- Generate XML docs for IntelliSense in consuming projects -->
