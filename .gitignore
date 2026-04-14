@@ -1,3 +1,4 @@
 src/.vs/*
 src/ComnetMapper/bin/*
 src/ComnetMapper/obj/*
+packages/*
