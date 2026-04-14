@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- Multi-target for broad compatibility -->
+    <TargetFrameworks>net6.0;net7.0;net8.0;net9.0</TargetFrameworks>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+
+    <!-- NuGet package metadata -->
+    <PackageId>Comnet.Mapper</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Vimal Vataliya</Authors>
+    <Company>Comnet Solution Pte. Lte.</Company>
+    <Product>ComnetMapper</Product>
+    <Description>
+      A high-performance, zero-dependency object-to-object mapper built on compiled
+      LINQ expression trees. Drop-in replacement for AutoMapper with profile-based
+      configuration, ForMember/ReverseMap support, BeforeMap/AfterMap hooks,
+      collection mapping, nested object mapping, and full DI integration.
+    </Description>
+    <PackageTags>mapper;automapper;object-mapping;dto;expression-trees;dependency-injection</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/THGEchoSystem/THGEchoSystem.Mapper</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+
+    <!-- Generate XML docs for IntelliSense in consuming projects -->
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+
+    <!-- Deterministic builds for reproducibility -->
+    <Deterministic>true</Deterministic>
+    <ContinuousIntegrationBuild Condition="'$(CI)' == 'true'">true</ContinuousIntegrationBuild>
+
+    <!-- Include README and icon in the package -->
+    <PackageIcon>icon.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Minimum version that supports AddSingleton; users on .NET 6+ already have this. -->
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Bundle the README into the package root so NuGet.org shows it. -->
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    <!-- Optional: add a 128×128 icon.png to the repo root -->
+    <None Include="..\..\icon.png" Pack="true" PackagePath="\" Condition="Exists('..\..\icon.png')" />
+  </ItemGroup>
+
+</Project>
