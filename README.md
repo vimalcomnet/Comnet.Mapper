@@ -1,6 +1,6 @@
 # ComnetSolution.AutoMapper
 
-[![NuGet](https://img.shields.io/nuget/v/ComnetSolution.Mapper.svg)](https://www.nuget.org/packages/ComnetSolution.Mapper)
+[![NuGet](https://img.shields.io/nuget/v/ComnetSolution.AutoMapper.svg)](https://www.nuget.org/packages/ComnetSolution.AutoMapper)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![.NET](https://img.shields.io/badge/.NET-6%20%7C%207%20%7C%208%20%7C%209-blue)](https://dotnet.microsoft.com)
 
